@@ -13,13 +13,27 @@
         android:layout_width="109dp"
         android:layout_height="38dp"
         android:background="@drawable/rounded_corner_button"
-        android:onClick="logout"
         android:text="LOG OUT"
         android:textColor="#777"
         app:backgroundTint="#ddd"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.725"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <Button
+        android:id="@+id/calendar"
+        android:layout_width="109dp"
+        android:layout_height="38dp"
+        android:background="@drawable/rounded_corner_button"
+        android:text="CALENDAR"
+        android:textColor="#777"
+        app:backgroundTint="#ddd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.264"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976" />
@@ -50,6 +64,7 @@
 
 
             <Button
+                android:id="@+id/bcg"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
@@ -66,6 +81,7 @@
                 app:layout_constraintVertical_bias="0.752" />
 
             <Button
+                android:id="@+id/hepatitisb"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
@@ -73,7 +89,7 @@
                 android:layout_marginRight="16dp"
                 android:background="@drawable/dashboard_button"
                 android:padding="10dp"
-                android:text="Chickenpox or Varicellae "
+                android:text="Hepatitis B    Vaccine"
                 android:textSize="15dp"
                 app:backgroundTint="#dd51c3fc"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -82,13 +98,14 @@
                 app:layout_constraintVertical_bias="0.846" />
 
             <Button
+                android:id="@+id/polio"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:background="@drawable/dashboard_button"
                 android:padding="10dp"
-                android:text="Combination Vaccine"
+                android:text="POLIO             Vaccine"
                 android:textSize="15dp"
                 app:backgroundTint="#dd51c3fc"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -98,6 +115,7 @@
                 app:layout_constraintVertical_bias="0.907" />
 
             <Button
+                android:id="@+id/hepatitisa"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="16dp"
@@ -113,13 +131,14 @@
                 app:layout_constraintVertical_bias="0.837" />
 
             <Button
+                android:id="@+id/typhoid"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:background="@drawable/dashboard_button"
                 android:padding="10dp"
-                android:text="Hepatitis B    Vaccine"
+                android:text="Typhoid           Vaccine "
                 android:textSize="15dp"
                 app:backgroundTint="#dd51c3fc"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -127,12 +146,6 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.748" />
 
-            <TextView
-                android:id="@+id/textView6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="TextView" />
 
         </LinearLayout>
 
