@@ -23,6 +23,22 @@ public class MainActivity extends AppCompatActivity {
         Button hepatitisa = findViewById(R.id.hepatitisa);
         Button typhoid = findViewById(R.id.typhoid);
         Button calendar = findViewById(R.id.calendar);
+        Button add = findViewById(R.id.button2);
+        Button view = findViewById(R.id.button3);
+
+        add.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),AddChild.class));
+            }
+        });
+
+        view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),ViewAddedChild.class));
+            }
+        });
 
         logout.setOnClickListener(new View.OnClickListener() {
             @Override

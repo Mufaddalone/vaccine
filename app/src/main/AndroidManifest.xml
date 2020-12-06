@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.VaccineReminder">
-        <activity android:name=".calendar"></activity>
+        <activity android:name=".ViewAddedChild"></activity>
+        <activity android:name=".AddChild" />
+        <activity android:name=".calendar" />
         <activity android:name=".typhoid" />
         <activity android:name=".hepatitisa" />
         <activity android:name=".polio" />
